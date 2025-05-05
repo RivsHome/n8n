@@ -5,5 +5,4 @@ services:
     plan: free
     buildCommand: pnpm install
     startCommand: cd packages/cli/bin && ./n8n
-    nodeVersion: 18.18.0
     autoDeploy: true
