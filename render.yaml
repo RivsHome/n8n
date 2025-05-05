@@ -4,5 +4,5 @@ services:
     env: node
     plan: free
     buildCommand: pnpm install
-    startCommand: cd packages/cli/bin && ./n8n
+    startCommand: pnpm start:default
     autoDeploy: true
